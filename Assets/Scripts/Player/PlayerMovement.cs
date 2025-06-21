@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            rb.linearVelocity = movement * speed;
+            rb.linearVelocity = movement.normalized * speed;
             animator.SetFloat("Move X", movement.x);
             animator.SetFloat("Move Y", movement.y);
             animator.SetBool("IsMoving", true);

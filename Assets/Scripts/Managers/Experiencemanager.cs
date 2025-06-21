@@ -12,6 +12,11 @@ public class Experiencemanager : MonoBehaviour
     [SerializeField] Image experiencefill;
     [SerializeField] TextMeshProUGUI currentLevelText;
 
+    public int CurrentLevel
+    {
+        get { return currentLevel; }
+    }
+
     public void AddPoints(int amount)
     {
         experiencePoints += amount;

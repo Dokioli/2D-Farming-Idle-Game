@@ -3,24 +3,27 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FoodSpawner : MonoBehaviour
+public abstract class FoodSpawner : MonoBehaviour
 {
-    UpgradeStats upgradeStats;
-    CurrencyManager currencyManager;
+    protected UpgradeStats upgradeStats;
+    protected CurrencyManager currencyManager;
+    protected Experiencemanager experienceManager;
     public FoodGenerator foodGenerator;
 
-    [SerializeField] Image fillImage;
-    [SerializeField] TextMeshProUGUI countText;
-    [SerializeField] int currentStorage = 0;
+    [SerializeField] protected Image fillImage;
+    [SerializeField] protected TextMeshProUGUI countText;
+    [SerializeField] protected int currentStorage = 0;
+
     float elapsedTime = 0;
     private void Start()
     {
         currencyManager = FindFirstObjectByType<CurrencyManager>();
+        experienceManager = FindFirstObjectByType<Experiencemanager>();
         upgradeStats = FindFirstObjectByType<UpgradeStats>();
-        StartCoroutine(ProduceFood());
+        //StartCoroutine(ProduceFood());
     }
 
-    IEnumerator ProduceFood()
+    protected IEnumerator ProduceFood()
     {
         while (true)
         {
@@ -41,18 +44,24 @@ public class FoodSpawner : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Player")) return;
+        //if (!collision.CompareTag("Player")) return;
 
-        upgradeStats.GetCurrentFood(foodGenerator);
+        //upgradeStats.GetCurrentFood(foodGenerator);
 
-        FoodCollector collector = collision.GetComponent<FoodCollector>();
+        //FoodCollector collector = collision.GetComponent<FoodCollector>();
 
-        int amountToCollect = Mathf.Min(currentStorage, collector.maxStorage - collector.eggStorage);
+        //int amountToCollect = Mathf.Min(currentStorage, collector.maxStorage - collector.eggStorage);
 
-        collector.CollectItem(currentStorage);
+        //collector.CollectItem(currentStorage);
 
-        currentStorage = Mathf.Max(0, currentStorage - amountToCollect);
+        //currentStorage = Mathf.Max(0, currentStorage - amountToCollect);
 
-        countText.text = currentStorage.ToString();
+        //countText.text = currentStorage.ToString();
+
+        CollectItem(collision);
+
     }
+
+    protected abstract void CollectItem(Collider2D collision);
+
 }
