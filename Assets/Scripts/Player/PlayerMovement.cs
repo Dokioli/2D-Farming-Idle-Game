@@ -2,15 +2,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    private Rigidbody2D rb;
+    Animator animator;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] Joystick playerJoystick;
+    [SerializeField] float speed;
 }
