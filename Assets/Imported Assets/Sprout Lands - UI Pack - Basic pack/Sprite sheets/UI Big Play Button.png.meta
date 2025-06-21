@@ -57,7 +57,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 0
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -138,10 +138,10 @@ TextureImporter:
       name: UI Big Play Button_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 34
-        width: 92
-        height: 29
+        x: 0
+        y: 32
+        width: 96
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: UI Big Play Button_1
       rect:
         serializedVersion: 2
-        x: 98
-        y: 34
-        width: 92
-        height: 27
+        x: 96
+        y: 32
+        width: 96
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,10 +182,10 @@ TextureImporter:
       name: UI Big Play Button_2
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 92
-        height: 29
+        x: 0
+        y: 0
+        width: 96
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: UI Big Play Button_3
       rect:
         serializedVersion: 2
-        x: 98
-        y: 2
-        width: 92
-        height: 27
+        x: 96
+        y: 0
+        width: 96
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 99db6b5cee3829e4995dec7d4747c79d
     internalID: 0
     vertices: []
     indices: 

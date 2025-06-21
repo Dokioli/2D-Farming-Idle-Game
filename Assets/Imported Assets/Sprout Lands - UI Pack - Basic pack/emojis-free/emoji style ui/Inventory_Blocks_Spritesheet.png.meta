@@ -72,7 +72,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 0
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -153,10 +153,10 @@ TextureImporter:
       name: Inventory_Blocks_Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 102
-        width: 32
-        height: 34
+        x: 0
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,10 +175,10 @@ TextureImporter:
       name: Inventory_Blocks_Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 56
-        y: 102
-        width: 32
-        height: 34
+        x: 48
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: Inventory_Blocks_Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 104
-        y: 102
-        width: 32
-        height: 34
+        x: 96
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,10 +219,10 @@ TextureImporter:
       name: Inventory_Blocks_Spritesheet_3
       rect:
         serializedVersion: 2
-        x: 8
-        y: 54
-        width: 32
-        height: 34
+        x: 0
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       name: Inventory_Blocks_Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 56
-        y: 54
-        width: 32
-        height: 34
+        x: 48
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,10 +263,10 @@ TextureImporter:
       name: Inventory_Blocks_Spritesheet_5
       rect:
         serializedVersion: 2
-        x: 104
-        y: 54
-        width: 32
-        height: 34
+        x: 96
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,10 +285,10 @@ TextureImporter:
       name: Inventory_Blocks_Spritesheet_6
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1
-        width: 44
-        height: 46
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: Inventory_Blocks_Spritesheet_7
       rect:
         serializedVersion: 2
-        x: 50
-        y: 1
-        width: 44
-        height: 46
+        x: 48
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,10 +329,10 @@ TextureImporter:
       name: Inventory_Blocks_Spritesheet_8
       rect:
         serializedVersion: 2
-        x: 98
-        y: 1
-        width: 44
-        height: 46
+        x: 96
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,7 +351,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 947cb06f77c77e943ad9d6918cd7eabd
     internalID: 0
     vertices: []
     indices: 

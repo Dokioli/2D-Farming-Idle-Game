@@ -90,7 +90,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 0
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -171,10 +171,10 @@ TextureImporter:
       name: speech_bubble_grey_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 133
-        width: 44
-        height: 49
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +193,10 @@ TextureImporter:
       name: speech_bubble_grey_1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 63
-        width: 10
-        height: 10
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +215,10 @@ TextureImporter:
       name: speech_bubble_grey_2
       rect:
         serializedVersion: 2
-        x: 90
-        y: 65
-        width: 12
-        height: 14
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +237,10 @@ TextureImporter:
       name: speech_bubble_grey_3
       rect:
         serializedVersion: 2
-        x: 150
-        y: 67
-        width: 20
-        height: 24
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,10 +259,10 @@ TextureImporter:
       name: speech_bubble_grey_4
       rect:
         serializedVersion: 2
-        x: 208
-        y: 71
-        width: 33
-        height: 34
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +281,10 @@ TextureImporter:
       name: speech_bubble_grey_5
       rect:
         serializedVersion: 2
-        x: 265
-        y: 73
-        width: 46
-        height: 48
+        x: 256
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,10 +303,10 @@ TextureImporter:
       name: speech_bubble_grey_6
       rect:
         serializedVersion: 2
-        x: 330
-        y: 68
-        width: 44
-        height: 49
+        x: 320
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,10 +325,10 @@ TextureImporter:
       name: speech_bubble_grey_7
       rect:
         serializedVersion: 2
-        x: 394
-        y: 69
-        width: 44
-        height: 49
+        x: 384
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,10 +347,10 @@ TextureImporter:
       name: speech_bubble_grey_8
       rect:
         serializedVersion: 2
-        x: 10
-        y: 5
-        width: 44
-        height: 49
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -369,10 +369,10 @@ TextureImporter:
       name: speech_bubble_grey_9
       rect:
         serializedVersion: 2
-        x: 74
-        y: 4
-        width: 44
-        height: 49
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,10 +391,10 @@ TextureImporter:
       name: speech_bubble_grey_10
       rect:
         serializedVersion: 2
-        x: 137
-        y: 9
-        width: 46
-        height: 48
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,10 +413,10 @@ TextureImporter:
       name: speech_bubble_grey_11
       rect:
         serializedVersion: 2
-        x: 208
-        y: 7
-        width: 33
-        height: 34
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,10 +435,10 @@ TextureImporter:
       name: speech_bubble_grey_12
       rect:
         serializedVersion: 2
-        x: 278
-        y: 3
-        width: 20
-        height: 24
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,10 +457,10 @@ TextureImporter:
       name: speech_bubble_grey_13
       rect:
         serializedVersion: 2
-        x: 346
-        y: 1
-        width: 12
-        height: 14
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,10 +479,10 @@ TextureImporter:
       name: speech_bubble_grey_14
       rect:
         serializedVersion: 2
-        x: 411
+        x: 384
         y: 0
-        width: 10
-        height: 9
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -501,7 +501,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2e43353303835c343b31acd2a460ba46
     internalID: 0
     vertices: []
     indices: 

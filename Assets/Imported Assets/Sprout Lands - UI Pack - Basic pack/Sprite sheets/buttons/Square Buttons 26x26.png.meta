@@ -69,7 +69,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 0
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -150,10 +150,10 @@ TextureImporter:
       name: Square Buttons 26x26_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 152
-        width: 28
-        height: 30
+        x: 0
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: Square Buttons 26x26_1
       rect:
         serializedVersion: 2
-        x: 58
-        y: 152
-        width: 28
-        height: 28
+        x: 48
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: Square Buttons 26x26_2
       rect:
         serializedVersion: 2
-        x: 10
-        y: 104
-        width: 28
-        height: 30
+        x: 0
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: Square Buttons 26x26_3
       rect:
         serializedVersion: 2
-        x: 58
-        y: 104
-        width: 28
-        height: 28
+        x: 48
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: Square Buttons 26x26_4
       rect:
         serializedVersion: 2
-        x: 10
-        y: 56
-        width: 28
-        height: 30
+        x: 0
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Square Buttons 26x26_5
       rect:
         serializedVersion: 2
-        x: 58
-        y: 56
-        width: 28
-        height: 28
+        x: 48
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: Square Buttons 26x26_6
       rect:
         serializedVersion: 2
-        x: 10
-        y: 8
-        width: 28
-        height: 30
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: Square Buttons 26x26_7
       rect:
         serializedVersion: 2
-        x: 58
-        y: 8
-        width: 28
-        height: 28
+        x: 48
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,7 +326,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 59113e6c2a5ff5c40b7df21d6ed70ddc
     internalID: 0
     vertices: []
     indices: 
