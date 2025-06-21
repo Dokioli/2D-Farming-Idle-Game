@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: 29067e7d079133c4abdd6c9f6d0a6cf6
+guid: 74ac8079f2b174e46a42dfa6e464026c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6373942132520359487
-    second: Egg_And_Nest_0
+      213: -4060333613677318956
+    second: coin_spin-Sheet_0
   - first:
-      213: 765105606590446433
-    second: Egg_And_Nest_1
+      213: -870073302980387339
+    second: coin_spin-Sheet_1
   - first:
-      213: 4338608209347774417
-    second: Egg_And_Nest_2
+      213: 3518283792883209942
+    second: coin_spin-Sheet_2
   - first:
-      213: -744197992327247199
-    second: Egg_And_Nest_3
+      213: 7808958362257548970
+    second: coin_spin-Sheet_3
+  - first:
+      213: -1999418370397201080
+    second: coin_spin-Sheet_4
+  - first:
+      213: 4749058980242610370
+    second: coin_spin-Sheet_5
+  - first:
+      213: -5567510872651083900
+    second: coin_spin-Sheet_6
+  - first:
+      213: 949069035666645487
+    second: coin_spin-Sheet_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +72,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
@@ -135,13 +147,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Egg_And_Nest_0
+      name: coin_spin-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3695c3599ac47850800000000000000
-      internalID: 6373942132520359487
+      spriteID: 4dc6f27471cc6a7c0800000000000000
+      internalID: -4060333613677318956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_And_Nest_1
+      name: coin_spin-Sheet_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 80
         y: 0
-        width: 16
-        height: 16
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16bbb78de733e9a00800000000000000
-      internalID: 765105606590446433
+      spriteID: 5fd9d47d0f0ece3f0800000000000000
+      internalID: -870073302980387339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_And_Nest_2
+      name: coin_spin-Sheet_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 160
         y: 0
-        width: 16
-        height: 16
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d784c1fd25d53c30800000000000000
-      internalID: 4338608209347774417
+      spriteID: 6d651dd087473d030800000000000000
+      internalID: 3518283792883209942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Egg_And_Nest_3
+      name: coin_spin-Sheet_3
       rect:
         serializedVersion: 2
-        x: 48
+        x: 240
         y: 0
-        width: 16
-        height: 16
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +228,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1aa86c07ed31ca5f0800000000000000
-      internalID: -744197992327247199
+      spriteID: aa66d20c14efe5c60800000000000000
+      internalID: 7808958362257548970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin_spin-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d9513e593a044e0800000000000000
+      internalID: -1999418370397201080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin_spin-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c85dbe1bfb08e140800000000000000
+      internalID: 4749058980242610370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin_spin-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fc188fb5a3cb2b0800000000000000
+      internalID: -5567510872651083900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin_spin-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1ab327245cb2d00800000000000000
+      internalID: 949069035666645487
       vertices: []
       indices: 
       edges: []
@@ -226,7 +326,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f6c96f4a714a47a44b4988cc73363a38
+    spriteID: f23bc58f53624804488fb8de3ff2acb7
     internalID: 0
     vertices: []
     indices: 
@@ -236,10 +336,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Egg_And_Nest_0: 6373942132520359487
-      Egg_And_Nest_1: 765105606590446433
-      Egg_And_Nest_2: 4338608209347774417
-      Egg_And_Nest_3: -744197992327247199
+      coin_spin-Sheet_0: -4060333613677318956
+      coin_spin-Sheet_1: -870073302980387339
+      coin_spin-Sheet_2: 3518283792883209942
+      coin_spin-Sheet_3: 7808958362257548970
+      coin_spin-Sheet_4: -1999418370397201080
+      coin_spin-Sheet_5: 4749058980242610370
+      coin_spin-Sheet_6: -5567510872651083900
+      coin_spin-Sheet_7: 949069035666645487
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
