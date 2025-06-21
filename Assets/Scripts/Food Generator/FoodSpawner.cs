@@ -6,20 +6,18 @@ using UnityEngine.UI;
 public class FoodSpawner : MonoBehaviour
 {
     UpgradeStats upgradeStats;
-
+    CurrencyManager currencyManager;
     public FoodGenerator foodGenerator;
 
     [SerializeField] Image fillImage;
     [SerializeField] TextMeshProUGUI countText;
-
     [SerializeField] int currentStorage = 0;
-
     float elapsedTime = 0;
-
     private void Start()
     {
-        StartCoroutine(ProduceFood());
+        currencyManager = FindFirstObjectByType<CurrencyManager>();
         upgradeStats = FindFirstObjectByType<UpgradeStats>();
+        StartCoroutine(ProduceFood());
     }
 
     IEnumerator ProduceFood()

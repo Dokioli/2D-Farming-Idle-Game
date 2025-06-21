@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Poultry
   m_EditorClassIdentifier: 
   FoodItem: Egg
-  FoodPrefab: {fileID: 0}
   SpawnRate: 3
   delay: 0.5
   MaxStorage: 12
-  CostToUpgrade: 100
+  CostToUpgradeStorage: 0
+  CostToUpgradeSpawnRate: 0

@@ -9,4 +9,7 @@ public class FoodGenerator : ScriptableObject
     public int MaxStorage;
     public int CostToUpgradeStorage;
     public int CostToUpgradeSpawnRate;
+    public int CostToUnlockArea;
+    public int RequiredLevel;
+    public bool IsLocked;
 }

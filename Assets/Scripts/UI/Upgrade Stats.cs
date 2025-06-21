@@ -35,7 +35,7 @@ public class UpgradeStats : MonoBehaviour
         if (currencyManager.currentCurrency >= foodGenerator.CostToUpgradeSpawnRate)
         {
             foodGenerator.SpawnRate -= amount;
-            currencyManager.currentCurrency -= foodGenerator.CostToUpgradeSpawnRate;
+            currencyManager.RemoveCurrency(foodGenerator.CostToUpgradeSpawnRate);
             foodGenerator.CostToUpgradeSpawnRate += 100;
             currentSpawnLevel++;
         }
@@ -47,7 +47,7 @@ public class UpgradeStats : MonoBehaviour
         if (currencyManager.currentCurrency >= foodGenerator.CostToUpgradeStorage)
         {
             foodGenerator.MaxStorage += amount;
-            currencyManager.currentCurrency -= foodGenerator.CostToUpgradeStorage;
+            currencyManager.RemoveCurrency(foodGenerator.CostToUpgradeStorage);
             foodGenerator.CostToUpgradeStorage += 100;
             currentStorageLevel++;
         }
