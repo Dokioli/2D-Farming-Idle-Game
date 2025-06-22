@@ -1,16 +1,22 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UpgradeStats : MonoBehaviour
 {
     public FoodGenerator foodGenerator;
     CurrencyManager currencyManager;
+
     [SerializeField] int currentSpawnLevel;
     [SerializeField] int currentStorageLevel;
     [SerializeField] int maxLevel;
 
     [SerializeField] TextMeshProUGUI spawnRateText;
     [SerializeField] TextMeshProUGUI maxStorageText;
+    [SerializeField] TextMeshProUGUI TitleText;
+
+    [SerializeField] Button upgradeSpawnButton;
+    [SerializeField] Button upgradeStorageButton;
 
     private void Start()
     {
@@ -26,7 +32,23 @@ public class UpgradeStats : MonoBehaviour
     private void UpdateUI()
     {
         spawnRateText.text = "SpawnRate : " + foodGenerator.SpawnRate + " / " + foodGenerator.CostToUpgradeSpawnRate + "$";
+        upgradeSpawnButton.interactable = currentSpawnLevel < maxLevel;
         maxStorageText.text = "MaxStorage : " + foodGenerator.MaxStorage + " / " + foodGenerator.CostToUpgradeStorage + "$";
+        upgradeStorageButton.interactable = currentStorageLevel < maxLevel;
+        TitleText.text = "Upgrade " + foodGenerator.FoodItem;
+        UpdateButtonStats();
+    }
+
+    private void UpdateButtonStats()
+    {
+        if (currentStorageLevel > maxLevel)
+        {
+            maxStorageText.text = "Maxed!";
+        }
+        else if (currentSpawnLevel > maxLevel)
+        {
+            spawnRateText.text = "Maxed!";
+        }
     }
 
     public void UpgradeSpawnRate(float amount)
@@ -40,6 +62,7 @@ public class UpgradeStats : MonoBehaviour
             currentSpawnLevel++;
         }
         UpdateUI();
+        UpdateButtonStats();
     }
     public void UpgradeMaxStorage(int amount)
     {
@@ -52,5 +75,6 @@ public class UpgradeStats : MonoBehaviour
             currentStorageLevel++;
         }
         UpdateUI();
+        UpdateButtonStats();
     }
 }

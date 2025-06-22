@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e2ca62ff2754b34da1979c1771554d3, type: 3}
   m_Name: Poultry
   m_EditorClassIdentifier: 
-  FoodItem: Egg
+  FoodItem: Poultry
   SpawnRate: 3
   delay: 0.5
   MaxStorage: 12
-  CostToUpgradeStorage: 0
-  CostToUpgradeSpawnRate: 0
+  CostToUpgradeStorage: 100
+  CostToUpgradeSpawnRate: 100
   CostToUnlockArea: 0
   RequiredLevel: 0
   IsLocked: 1

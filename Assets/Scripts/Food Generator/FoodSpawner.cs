@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public abstract class FoodSpawner : MonoBehaviour
@@ -13,6 +14,8 @@ public abstract class FoodSpawner : MonoBehaviour
     [SerializeField] protected Image fillImage;
     [SerializeField] protected TextMeshProUGUI countText;
     [SerializeField] protected int currentStorage = 0;
+
+    [SerializeField] protected UnityEvent onOverlap;
 
     float elapsedTime = 0;
     private void Start()
@@ -44,22 +47,7 @@ public abstract class FoodSpawner : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //if (!collision.CompareTag("Player")) return;
-
-        //upgradeStats.GetCurrentFood(foodGenerator);
-
-        //FoodCollector collector = collision.GetComponent<FoodCollector>();
-
-        //int amountToCollect = Mathf.Min(currentStorage, collector.maxStorage - collector.eggStorage);
-
-        //collector.CollectItem(currentStorage);
-
-        //currentStorage = Mathf.Max(0, currentStorage - amountToCollect);
-
-        //countText.text = currentStorage.ToString();
-
         CollectItem(collision);
-
     }
 
     protected abstract void CollectItem(Collider2D collision);

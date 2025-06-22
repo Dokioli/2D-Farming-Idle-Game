@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e2ca62ff2754b34da1979c1771554d3, type: 3}
   m_Name: Dairy
   m_EditorClassIdentifier: 
-  FoodItem: Milk
-  SpawnRate: 3.8
+  FoodItem: Dairy
+  SpawnRate: 4
   delay: 0.8
   MaxStorage: 12
-  CostToUpgradeStorage: 200
+  CostToUpgradeStorage: 100
   CostToUpgradeSpawnRate: 100
   CostToUnlockArea: 1500
   RequiredLevel: 2

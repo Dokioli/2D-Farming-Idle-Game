@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 98b14eeae000981409bb7b761d4fc4c7
+guid: 154c5e3b92fdbb14f849e715ddf21447
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1016924287127059768
-    second: Bitmask references 1_0
+      213: -5305218208300342839
+    second: U_Special_0
+  - first:
+      213: 5093205109586524351
+    second: U_Special_1
+  - first:
+      213: 5734178817158635909
+    second: U_Special_2
+  - first:
+      213: -3502099952245060403
+    second: U_Special_3
+  - first:
+      213: -5249073178989741147
+    second: U_Special_4
+  - first:
+      213: -3332186322989651549
+    second: U_Special_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +66,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
@@ -75,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bitmask references 1_0
+      name: U_Special_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 480
-        height: 256
+        x: 15
+        y: 15
+        width: 18
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +156,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c2035eafb823e1f0800000000000000
-      internalID: -1016924287127059768
+      spriteID: 9c1e256d5241066b0800000000000000
+      internalID: -5305218208300342839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U_Special_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 15
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8fb1def03bea640800000000000000
+      internalID: 5093205109586524351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U_Special_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 15
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5816f43d045e39f40800000000000000
+      internalID: 5734178817158635909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U_Special_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 15
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc458af5aa066fc0800000000000000
+      internalID: -3502099952245060403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U_Special_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 15
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab394621cb8727b0800000000000000
+      internalID: -5249073178989741147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: U_Special_5
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 15
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a969c4a132b1c1d0800000000000000
+      internalID: -3332186322989651549
       vertices: []
       indices: 
       edges: []
@@ -161,7 +286,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bitmask references 1_0: -1016924287127059768
+      U_Special_0: -5305218208300342839
+      U_Special_1: 5093205109586524351
+      U_Special_2: 5734178817158635909
+      U_Special_3: -3502099952245060403
+      U_Special_4: -5249073178989741147
+      U_Special_5: -3332186322989651549
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

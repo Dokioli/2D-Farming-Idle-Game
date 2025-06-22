@@ -21,14 +21,13 @@ public class EggTEMP : FoodSpawner
 
             countText.text = currentStorage.ToString();
         }
-        else
+        else if (currencyManager.currentCurrency >= foodGenerator.CostToUnlockArea && foodGenerator.IsLocked && experienceManager.CurrentLevel >= foodGenerator.RequiredLevel)
         {
-            if (currencyManager.currentCurrency >= foodGenerator.CostToUnlockArea && foodGenerator.IsLocked && foodGenerator.RequiredLevel >= experienceManager.CurrentLevel)
-            {
-                foodGenerator.IsLocked = false;
-                currencyManager.RemoveCurrency(foodGenerator.CostToUnlockArea);
-                StartCoroutine(ProduceFood());
-            }
+            
+            foodGenerator.IsLocked = false;
+            currencyManager.RemoveCurrency(foodGenerator.CostToUnlockArea);
+            onOverlap.Invoke();
+            StartCoroutine(ProduceFood());
         }
     }
 }

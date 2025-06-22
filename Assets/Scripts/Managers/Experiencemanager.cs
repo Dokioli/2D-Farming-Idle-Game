@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class Experiencemanager : MonoBehaviour
 {
-    int currentLevel = 0;
+    [SerializeField] int currentLevel = 0;
     int experiencePoints = 0;
     int maxExperiencePoints = 100;
     int additionalExperiencePoints = 100;
