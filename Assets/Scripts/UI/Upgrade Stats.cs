@@ -54,6 +54,11 @@ public class UpgradeStats : MonoBehaviour
         {
             spawnRateText.text = "Maxed!";
         }
+        else
+        {
+            upgradeSpawnButton.interactable = true;
+            upgradeStorageButton.interactable = true;
+        }
     }
 
     public void UpgradeSpawnRate(float amount)

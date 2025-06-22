@@ -46,10 +46,10 @@ public class FoodCollector : MonoBehaviour
         if (eggStorage > 0 || milkStorage > 0)
         {
             int eggsToGive = Mathf.Min(eggStorage, customer.eggCount);
-            int milkToGive = Mathf.Min(eggStorage, customer.milkCount);
+            int milkToGive = Mathf.Min(milkStorage, customer.milkCount);
             customer.CheckItemCount(eggsToGive, milkToGive);
             eggStorage = Mathf.Max(0, eggStorage - eggsToGive);
-            milkStorage = Mathf.Max(0, milkStorage - eggsToGive);
+            milkStorage = Mathf.Max(0, milkStorage - milkToGive);
             itemText.text = ": " + eggStorage;
             milkText.text = ": " + milkStorage;
         }
