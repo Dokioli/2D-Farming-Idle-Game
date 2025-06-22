@@ -17,12 +17,17 @@ public class Customer : MonoBehaviour
     [SerializeField] TextMeshProUGUI milkCountText;
     [SerializeField] TextMeshProUGUI eggCountText;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = FindFirstObjectByType<AudioManager>();
+    }
     public void Init(Experiencemanager experiencemanagerm, CurrencyManager currencyManager, CustomerManager manager)
     {
         this.experiencemanager = experiencemanagerm;
         this.currencyManager = currencyManager;
         this.manager = manager;
-
         OrderCount();
     }
     public void OrderCount()
@@ -34,7 +39,7 @@ public class Customer : MonoBehaviour
                 eggCount = Random.Range(1, 5);
 
                 eggCountText.text = ": " + eggCount;
-                eggCountText.text = milkCount + ": ";
+                milkCountText.text = milkCount + ": ";
                 break;
             default:
                 eggCount = Random.Range(1, 5);
@@ -42,16 +47,22 @@ public class Customer : MonoBehaviour
                 eggCountText.text = ": " + eggCount;
                 break;
         }
+        audioManager.PlayAudio(audioManager.orderTingClip);
     }
 
     public void CheckItemCount(int eggamount, int milkamount)
     {
         eggCount -= eggamount;
         milkCount -= milkamount;
+
+        eggCountText.text = ": " + eggCount;
+        milkCountText.text = milkCount + ": ";
+
         if (eggCount <= 0 && milkCount <= 0)
         {
             experiencemanager.AddPoints(20);
             currencyManager.AddCurrency(200);
+            audioManager.PlayAudio(audioManager.cashCollectedClip);
             Destroy(gameObject);
         }
     }

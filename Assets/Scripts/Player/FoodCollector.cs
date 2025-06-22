@@ -11,7 +11,12 @@ public class FoodCollector : MonoBehaviour
     public int milkStorage = 0;
 
     private Customer customer;
+    AudioManager audioManager;
 
+    private void Start()
+    {
+        audioManager = FindFirstObjectByType<AudioManager>();
+    }
 
     public void CollectItem(int amount)
     {
@@ -19,6 +24,7 @@ public class FoodCollector : MonoBehaviour
         {
             return;
         }
+        audioManager.PlayAudio(audioManager.eggSpawnnedClip);
         eggStorage = Mathf.Min(eggStorage + amount, maxStorage);
         itemText.text = ": " + eggStorage;
     }
@@ -29,6 +35,7 @@ public class FoodCollector : MonoBehaviour
         {
             return;
         }
+        audioManager.PlayAudio(audioManager.milkSpawnnedClip);
         milkStorage = Mathf.Min(milkStorage + amount, maxStorage);
         milkText.text = ": " + milkStorage;
     }

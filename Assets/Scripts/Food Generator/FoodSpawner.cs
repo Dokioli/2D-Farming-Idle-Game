@@ -10,6 +10,7 @@ public abstract class FoodSpawner : MonoBehaviour
     protected CurrencyManager currencyManager;
     protected Experiencemanager experienceManager;
     public FoodGenerator foodGenerator;
+    protected AudioManager audioManager;
 
     [SerializeField] protected Image fillImage;
     [SerializeField] protected TextMeshProUGUI countText;
@@ -20,6 +21,7 @@ public abstract class FoodSpawner : MonoBehaviour
     float elapsedTime = 0;
     private void Start()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
         currencyManager = FindFirstObjectByType<CurrencyManager>();
         experienceManager = FindFirstObjectByType<Experiencemanager>();
         upgradeStats = FindFirstObjectByType<UpgradeStats>();

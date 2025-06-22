@@ -2615,7 +2615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadingScreen: {fileID: 1009960608}
   loadingScreenSlider: {fileID: 1390715972}
-  delay: 2
+  delay: 3
 --- !u!1 &1029793465
 GameObject:
   m_ObjectHideFlags: 0

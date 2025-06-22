@@ -4,6 +4,7 @@ public class MainMenu : MonoBehaviour
 {
     public void LoadScene()
     {
+        Time.timeScale = 1f;
         LoadingScreenManager.Instance.SwitchScene(1);
     }
     public void QuitGame()
@@ -21,6 +22,7 @@ public class MainMenu : MonoBehaviour
     }
     public void ReturnMainMenu()
     {
+        Time.timeScale = 1f;
         LoadingScreenManager.Instance.SwitchScene(0);
     }
 }

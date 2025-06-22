@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class CustomerManager : MonoBehaviour
 {
+    AudioManager audioManager;
     private CustomerManager manager;
     private CurrencyManager currencyManager;
     private Experiencemanager experiencemanager;
@@ -14,8 +15,10 @@ public class CustomerManager : MonoBehaviour
     [SerializeField] int maxSpawn;
     private int currentSpawnIndex;
     public int counter;
+
     private void Start()
     {
+        audioManager = FindFirstObjectByType<AudioManager>();
         manager = FindFirstObjectByType<CustomerManager>();
         experiencemanager = FindFirstObjectByType<Experiencemanager>();
         currencyManager = FindFirstObjectByType<CurrencyManager>();

@@ -17,7 +17,12 @@ public class UpgradeStats : MonoBehaviour
 
     [SerializeField] Button upgradeSpawnButton;
     [SerializeField] Button upgradeStorageButton;
+    AudioManager audioManager;
 
+    private void Awake()
+    {
+        audioManager = FindFirstObjectByType<AudioManager>();
+    }
     private void Start()
     {
         currencyManager = FindFirstObjectByType<CurrencyManager>();
@@ -59,6 +64,7 @@ public class UpgradeStats : MonoBehaviour
             foodGenerator.SpawnRate -= amount;
             currencyManager.RemoveCurrency(foodGenerator.CostToUpgradeSpawnRate);
             foodGenerator.CostToUpgradeSpawnRate += 100;
+            audioManager.PlayAudio(audioManager.cashCollectedClip);
             currentSpawnLevel++;
         }
         UpdateUI();
@@ -72,6 +78,7 @@ public class UpgradeStats : MonoBehaviour
             foodGenerator.MaxStorage += amount;
             currencyManager.RemoveCurrency(foodGenerator.CostToUpgradeStorage);
             foodGenerator.CostToUpgradeStorage += 100;
+            audioManager.PlayAudio(audioManager.cashCollectedClip);
             currentStorageLevel++;
         }
         UpdateUI();

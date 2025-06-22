@@ -12,6 +12,13 @@ public class Experiencemanager : MonoBehaviour
     [SerializeField] Image experiencefill;
     [SerializeField] TextMeshProUGUI currentLevelText;
 
+    AudioManager audioManager;
+
+    private void Start()
+    {
+        audioManager = FindFirstObjectByType<AudioManager>();
+    }
+
     public int CurrentLevel
     {
         get { return currentLevel; }
