@@ -12,6 +12,7 @@ public class CustomerManager : MonoBehaviour
 
     float timer = 0;
     [SerializeField] int maxSpawn;
+    private int currentSpawnIndex;
     public int counter;
     private void Start()
     {
@@ -36,10 +37,12 @@ public class CustomerManager : MonoBehaviour
                 counter++;
 
                 int randomIndex = Random.Range(0, customerPrefab.Length);
-                int randomSpawnIndex = Random.Range(0, spawnTransform.Length);
-                Customer customer = Instantiate(customerPrefab[randomIndex], spawnTransform[randomSpawnIndex].position, Quaternion.identity).GetComponent<Customer>();
+                Transform spawnPoint = spawnTransform[currentSpawnIndex];
+
+                Customer customer = Instantiate(customerPrefab[randomIndex], spawnPoint.position, Quaternion.identity).GetComponent<Customer>();
                 customer.Init(experiencemanager, currencyManager, manager);
-                Debug.Log("Customer Spawned");
+
+                currentSpawnIndex = (currentSpawnIndex + 1) % spawnTransform.Length;
             }
 
             yield return new WaitForSeconds(1f);
